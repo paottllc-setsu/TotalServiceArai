@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>トータルサービスあらい</id>
+    <version>1.0.0</version>
+    <authors>トータルサービスあらい</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0">
+        <dependency id="ClosedXML" version="0.102.0" exclude="Build,Analyzers" />
+        <dependency id="FreeSpire.Office" version="8.2.0" exclude="Build,Analyzers" />
+        <dependency id="MySqlConnector" version="2.2.7" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="Spire.PDF" version="9.8.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\利明\source\repos\販売管理システム\bin\Debug\net7.0-windows\トータルサービスあらい.runtimeconfig.json" target="lib\net7.0-windows7.0\トータルサービスあらい.runtimeconfig.json" />
+    <file src="C:\Users\利明\source\repos\販売管理システム\bin\Debug\net7.0-windows\トータルサービスあらい.dll" target="lib\net7.0-windows7.0\トータルサービスあらい.dll" />
+  </files>
+</package>

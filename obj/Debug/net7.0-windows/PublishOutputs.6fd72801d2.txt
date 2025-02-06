@@ -1,0 +1,16 @@
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\トータルサービスあらい.exe
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\トータルサービスあらい.dll
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\トータルサービスあらい.deps.json
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\トータルサービスあらい.runtimeconfig.json
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\トータルサービスあらい.dll.config
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\トータルサービスあらい.pdb
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\ClosedXML.dll
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\DocumentFormat.OpenXml.dll
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\DotNetZip.dll
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\ExcelNumberFormat.dll
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\Irony.dll
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\MySqlConnector.dll
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\Newtonsoft.Json.dll
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\SixLabors.Fonts.dll
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\unvell.ReoGrid.dll
+C:\Users\paott\source\repos\販売管理システム\bin\Debug\net7.0-windows\app.publish\XLParser.dll
