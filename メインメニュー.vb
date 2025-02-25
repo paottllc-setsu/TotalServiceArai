@@ -88,6 +88,10 @@ Public Class メインメニュー
         }
         '2024/8/29 saruwatari Add End =========================================================
 
+        '2025/2/21 setsu Add Start ================
+        Me.DataBackUp()
+        '2025/2/21 setsu Add  End  ================
+
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
@@ -109,4 +113,28 @@ Public Class メインメニュー
         fm1.StartPosition = FormStartPosition.CenterScreen
         fm1.ShowDialog(Me)
     End Sub
+
+    'データベースのバックアップを実施
+    Private Sub DataBackUp()
+
+        ' ProcessStartInfoオブジェクトを作成
+        Dim psi As New ProcessStartInfo()
+        psi.FileName = "C:\template\backup.bat"
+        psi.Verb = "runas"
+        psi.UseShellExecute = True
+        'psi.RedirectStandardOutput = True
+        'psi.RedirectStandardError = True
+
+        ' Processオブジェクトを作成し、Startメソッドを呼び出す
+        Dim process As New Process()
+        process.StartInfo = psi
+
+        ' プロセスの出力を取得する
+        'AddHandler process.OutputDataReceived, AddressOf OutputHandler
+        'AddHandler process.ErrorDataReceived, AddressOf ErrorHandler
+
+        process.Start()
+
+    End Sub
+
 End Class

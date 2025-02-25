@@ -14,6 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = トータルサービスあらい
-build_property.ProjectDir = C:\Users\パオット\source\repos\販売管理システム\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\利明\source\repos\販売管理システム_git\TotalServiceArai\

@@ -138,4 +138,24 @@ Public Class Common
         Return Now.ToString("yyyyMMdd HHmmss")
     End Function
 
+    Public Shared Sub E2p()
+        'Workbookインスタンスを作成する
+        Dim workbook As Spire.Xls.Workbook = New Spire.Xls.Workbook()
+
+        'サンプルExcel文書をロードする
+        workbook.LoadFromFile("C:\template\\Book1000.xlsx")
+
+        '変換時にページに合うようにワークシートを設定する
+        'workbook.ConverterSetting.SheetFitToPage = True
+
+        '改頁を保つための設定
+        For Each sheet As Spire.Xls.Worksheet In workbook.Worksheets
+            sheet.PageSetup.FitToPagesWide = 1
+            sheet.PageSetup.FitToPagesTall = 0
+        Next
+
+        'PDFに保存する
+        workbook.SaveToFile("C:\Temp\\ExcelToPdf.pdf", Spire.Xls.FileFormat.PDF)
+    End Sub
+
 End Class

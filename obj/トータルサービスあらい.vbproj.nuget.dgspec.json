@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\パオット\\source\\repos\\販売管理システム\\トータルサービスあらい.vbproj": {}
+    "C:\\Users\\利明\\source\\repos\\販売管理システム_git\\TotalServiceArai\\トータルサービスあらい.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\パオット\\source\\repos\\販売管理システム\\トータルサービスあらい.vbproj": {
+    "C:\\Users\\利明\\source\\repos\\販売管理システム_git\\TotalServiceArai\\トータルサービスあらい.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\パオット\\source\\repos\\販売管理システム\\トータルサービスあらい.vbproj",
+        "projectUniqueName": "C:\\Users\\利明\\source\\repos\\販売管理システム_git\\TotalServiceArai\\トータルサービスあらい.vbproj",
         "projectName": "トータルサービスあらい",
-        "projectPath": "C:\\Users\\パオット\\source\\repos\\販売管理システム\\トータルサービスあらい.vbproj",
-        "packagesPath": "C:\\Users\\パオット\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\パオット\\source\\repos\\販売管理システム\\obj\\",
+        "projectPath": "C:\\Users\\利明\\source\\repos\\販売管理システム_git\\TotalServiceArai\\トータルサービスあらい.vbproj",
+        "packagesPath": "C:\\Users\\利明\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\利明\\source\\repos\\販売管理システム_git\\TotalServiceArai\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\パオット\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\利明\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -57,6 +51,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Spire.XLS": {
+              "target": "Package",
+              "version": "[15.2.3, )"
             },
             "System.Data.SQLite.Core": {
               "target": "Package",
@@ -82,7 +80,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
